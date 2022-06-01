@@ -1,0 +1,74 @@
+body {
+  height: 2000px;
+}
+.logo {
+  display: inline-block;
+
+  margin-left: 30px;
+}
+.nav {
+  display: inline-block;
+  margin-left: 100px;
+}
+.navigation {
+  display: inline-block;
+  margin-right: 40px;
+}
+.header {
+  background-color: bisque;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+}
+.section1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text1 {
+  width: 500px;
+  background-color: cadetblue;
+}
+
+.relative {
+  width: 600px;
+  height: 600px;
+  background-color: brown;
+  position: relative;
+}
+.absolute {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.absolute2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(220, 220, 241);
+  position: absolute;
+  bottom: 0;
+  z-index: 6;
+}
+.absolute3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(9, 9, 24);
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  z-index: 3;
+}
+.absolute4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(64, 223, 39);
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 5;
+}
